@@ -8,6 +8,10 @@ body {
   background-color: #1f2937;
 }
 
+.bg-secondary {
+  background-color: #e5e7eb;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -61,7 +65,7 @@ body {
 }
 
 .hero div:last-child {
-  text-align: center;
+  text-align: right;
 }
 
 .hero button {
@@ -76,4 +80,25 @@ body {
 
 img {
   width: 400px;
+}
+
+.card-section h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.card-section .cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card-section .card img {
+  width: 220px;
+  height: 170px;
+  border: 3px solid #3882f6;
+  border-radius: 8px;
 }
