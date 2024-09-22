@@ -44,6 +44,7 @@ body {
 
 .hero {
   display: flex;
+  padding: 3.5rem 0;
 }
 
 .hero h1 {
@@ -82,6 +83,11 @@ img {
   width: 400px;
 }
 
+.card-section,
+.quotes {
+  padding: 3.5rem 0;
+}
+
 .card-section h2 {
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -92,13 +98,30 @@ img {
 
 .card-section .cards {
   display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: center;
+  gap: 35px;
+}
+
+.card-section .card p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 .card-section .card img {
-  width: 220px;
+  width: 170px;
   height: 170px;
   border: 3px solid #3882f6;
   border-radius: 8px;
+}
+.quotes p {
+  font-family: "Roboto", sans-serif;
+  text-align: right;
+  font-weight: bold;
+}
+.quotes blockquote {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1f2937;
+  font-family: "Roboto", sans-serif;
 }
