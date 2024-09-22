@@ -3,35 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Landing Page</title>
   </head>
   <body>
-    <div class="header">
-      <div class="container">
-        <div class="logo">LOGO</div>
+    <div class="header bg-primary">
+      <div class="container d-flex-row">
+        <div class="logo">HEADER LOGO</div>
         <ul class="links">
           <li><a href="https://google.com">link-one</a></li>
           <li><a href="https://google.com">link-two</a></li>
           <li><a href="https://google.com">link-three</a></li>
         </ul>
       </div>
-      <div class="container">
-        <button class="notifications">1 new notification</button>
-        <div class="profile-image"></div>
+      <div class="container hero">
+        <div class=" bg-primary">
+          <h1>this website is awesome</h1>
+          <p>
+            this website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
+          </p>
+          <button>Sign up</button>
+        </div>
+        <div>
+          <img src="./img/hero.jpg" alt="hero-img" />
+        </div>
       </div>
     </div>
-    <div class="container">
-      <div>
-        <h1>this website is awesome</h1>
-        <p>
-          this website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast
-        </p>
-        <button>Sign up</button>
-      </div>
-      <div>
-        <img src="#" alt="hero-img" />
-      </div>
+    <div class="main">
+      
+      <div class="container">more content</div>
+    </div>
+    <div class="footer bg-primary">
+      <div class="container">Copyright © The Odin Project 2024</div>
     </div>
   </body>
 </html>
